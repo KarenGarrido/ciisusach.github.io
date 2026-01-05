@@ -1,1 +1,1 @@
-/* espacio para animaciones o plugins JS */
+// CIIS USACH - minimal JS placeholder (no animations requested)

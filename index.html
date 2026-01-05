@@ -1,51 +1,70 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>CIIS USACH</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Home | CIIS USACH</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <a class="brand" href="index.html">
-        <span class="brand-title">CIIS USACH</span>
-        <span class="brand-sub">Sitio estático (GitHub Pages)</span>
-      </a>
-      <nav class="nav">
-        <a href="index.html">Inicio</a>
-        <a href="posts/index.html">Comunicados</a>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">US</div>
+        <div class="titles">
+          <div><span>FACULTAD DE INGENIERÍA</span></div>
+          <strong>CENTRO DE INTEGRACIÓN<br/>INGENIERÍA Y SOCIEDAD</strong>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <ul>
+          <li><a class="active" href="index.html">HOME</a></li><li><a class="" href="quienes-somos.html">QUIÉNES SOMOS</a></li><li><a class="" href="investigaciones.html">INVESTIGACIONES</a></li><li><a class="" href="publicaciones.html">PUBLICACIONES</a></li><li><a class="" href="politica-publica.html">POLÍTICA PÚBLICA</a></li>
+        </ul>
       </nav>
     </div>
   </header>
-  <main class="container">
-<section class="hero">
-  <h1>CIIS USACH</h1>
-  <p>Sitio estático generado desde tu export de WordPress (XML). Aquí puedes publicar en GitHub Pages sin depender de un CMS.</p>
-  <a class="btn" href="posts/index.html">Ver comunicados</a>
-</section>
 
-<div class="grid">
-  <div class="card full">
-    <h2>Qué sigue</h2>
-    <ul>
-      <li>Importar tus fuentes (Bebas Neue + Brandon Grotesque).</li>
-      <li>Definir secciones editables (Comunicados, Actividades, Documentos) con un archivo <code>data.json</code> o Google Form.</li>
-      <li>Mejorar el diseño (cards, animaciones, slider, etc.).</li>
-    </ul>
-  </div>
   
-</div>
-  </main>
-  <footer class="site-footer">
-    <div class="container">
-      <small>Generado desde export de WordPress (XML) — ciisusach.WordPress.2026-01-05.xml</small>
+  <section class="hero" aria-label="Cabecera">
+    <div>
+      <h1><span>CENTRO DE INTEGRACIÓN</span><span>INGENIERÍA Y SOCIEDAD (CIIS)</span></h1>
+      <p class="subtitle">Facultad de Ingeniería • Universidad de Santiago de Chile</p>
+    </div>
+  </section>
+
+
+  
+<main class="section">
+  <div class="grid-2">
+    <div class="lead">
+      <p><strong>El Centro de Integración Ingeniería y Sociedad (CIIS)</strong> es un Centro de pensamiento, reflexión e investigación-acción de la Facultad de Ingeniería de la Universidad de Santiago de Chile.</p>
+      <p>Pensamos en una ingeniería con <strong>sentido social</strong>, arraigada en las problemáticas locales con el propósito de construir una sociedad más equitativa, inclusiva y participativa; con un equipo multidisciplinario que enfatiza el trabajo colaborativo y cooperativo.</p>
+      <p>Te invitamos a sumarte en esta aventura de soñar y diseñar una nueva sociedad.</p>
+    </div>
+    <figure class="photo-card">
+      <img src="assets/img/side-photo.svg" alt="Fotografía institucional"/>
+    </figure>
+  </div>
+</main>
+
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="social" aria-label="Redes sociales">
+        <a href="#" title="YouTube" aria-label="YouTube">▶</a>
+        <a href="#" title="X/Twitter" aria-label="X/Twitter">𝕏</a>
+      </div>
+      <div class="contact">
+        <div><strong>Centro de Integración Ingeniería y Sociedad (CIIS)</strong></div>
+        <div>Av. Víctor Jara #3769, Oficina 122 • Estación Central, Santiago</div>
+        <div>Teléfono: +56 2 2718 4760 • <a href="mailto:ciis@usach.cl">ciis@usach.cl</a></div>
+      </div>
     </div>
   </footer>
+
   <script src="assets/js/site.js"></script>
 </body>
 </html>

@@ -1,17 +1,28 @@
-# CIIS USACH — sitio estático
+# CIIS USACH (sitio estático)
 
-Este paquete se generó desde un export de WordPress (XML). Para publicarlo en GitHub Pages:
+Este sitio estático está construido para GitHub Pages, siguiendo el mockup institucional (menú centrado, sin animaciones, y sin sección de noticias).
 
-1. Copia **todo el contenido** de esta carpeta al root de tu repo `KarenGarrido/ciisusach.github.io`
-2. Asegúrate de que GitHub Pages esté configurado como:
-   - Source: Deploy from a branch
-   - Branch: `main`
-   - Folder: `/(root)`
-3. Abre el sitio: `https://karengarrido.github.io/ciisusach.github.io/`
+## Publicación en GitHub Pages
+1. Copia **todo** el contenido de esta carpeta a la raíz de tu repo:
+   `KarenGarrido/ciisusach.github.io`
+2. Commit + push a `main`.
+3. En GitHub: Settings → Pages → Deploy from a branch → `main` + `/(root)`.
+
+La URL quedará en:
+`https://karengarrido.github.io/ciisusach.github.io/`
 
 ## Fuentes
-- Bebas Neue: se carga desde Google Fonts en el `<head>`
-- Brandon Grotesque: coloca `BrandonGrotesque-Light.woff2` en `/fonts/` y el CSS ya la intentará usar.
+- **Bebas Neue Light**: cargada desde Google Fonts en cada página.
+- **Brandon Grotesque Light**: debes subir el archivo:
+  `/fonts/BrandonGrotesque-Light.woff2`
 
-## Contenido
-- Comunicados: `/posts/`
+Si no lo subes, el sitio usará la fuente del sistema.
+
+## Editar contenido
+- Home: `index.html`
+- Quiénes somos: `quienes-somos.html`
+- Investigaciones: `investigaciones.html`
+- Publicaciones: `publicaciones.html`
+- Política pública: `politica-publica.html`
+
+Los miembros y áreas se editan en `quienes-somos.html`.
