@@ -1,0 +1,14 @@
+title: "CIIS USACH"
+description: "Centro de Integración Ingeniería y Sociedad"
+lang: es
+
+# Para repo de proyecto:
+url: "https://karengarrido.github.io"
+baseurl: "/ciisusach.github.io"
+
+# Cuando pongas dominio propio, después lo dejamos así:
+# url: "https://TU-DOMINIO"
+# baseurl: ""
+
+markdown: kramdown
+  
